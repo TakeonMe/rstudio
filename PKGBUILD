@@ -22,3 +22,4 @@ package() {
   rm lib*.so.*
   cd "$pkgdir/usr/bin"
   ln -s -f ../lib/rstudio/bin/rstudio rstudio-bin
+}
